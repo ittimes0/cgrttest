@@ -9,4 +9,4 @@ from pyspark.sql.functions import col
 
 @dp.table
 def sample_trips_cgrtbundle_new():
-    return spark.read.table("samples.nyctaxi.trips")
+    return spark.read.table("cgrtcatalog.threewaterzhu.taxi_trips_test")
